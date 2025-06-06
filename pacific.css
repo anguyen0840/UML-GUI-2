@@ -1,0 +1,133 @@
+/* <!--
+File: pacific.css
+GUI Assignment 2: Style a Site with External CSS
+Anh Nguyen, UMass Lowell Computer Science, anh_nguyen9@student.uml.edu
+Copyright (c) 2025 by Anh Nguyen. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by AN on June 5, 2025 at 10:40 AM
+--> */
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+* {
+	margin: 100;
+	padding: 10;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('ptrbackground.jpg');
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+	width: 80%;
+	min-width: 600px;
+	margin: 0 auto;
+}
+
+nav {
+	width: 200px;
+	float: left;
+	background-color: #90C8E3;
+	padding: 10px;
+	height: 85vh;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style: none;
+}
+
+nav a {
+	text-decoration: none;
+	color: #00569f;
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+	background-color: #344873;
+}
+
+#content {
+	padding: 20px;
+	background-color: white;
+	overflow: hidden;
+	margin-left: 0;
+}
+
+header {
+	text-align: center;
+	background-color: #000032;
+	height: 120px;
+	display: flex;
+	align-items: center;
+}
+
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+	background: url('sunset.jpg') no-repeat top right, #000032;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	background-size: contain;
+	text-align: left;
+	color: white;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+h2 {
+	color: #3399CC;
+}
+h1,
+
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+	margin-bottom: 10px;
+}
+
+.resort {
+	color: #3399CC;
+	font-weight: bold;
+}
+
+ul {
+	list-style-image: url('marker.gif');
+	margin-left: 20px;
+	padding-left: 10px;
+}
+
+ul li {
+	margin: 10px 0;
+}
+
+#contact {
+	font-size: 90%;
+	margin-top: 20px;
+}
+
+#contact.resort {
+	color: #3399CC;
+}
+
+dt {
+	color: #000033;
+}
+
+footer {
+	text-align: left;
+	position: relative;
+	top: -35px;
+	padding-left: 205px;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: smaller;
+	color: #666666;
+}	
